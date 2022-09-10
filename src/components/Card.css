@@ -1,0 +1,55 @@
+.Card {
+  position: relative;
+  width: 176px;
+  font-size: 0.75rem;
+  flex: 0 0 auto;   
+}
+
+.Card > img {
+  border-radius: 9px;
+  width: 100%;
+}
+
+.Card .status-container {
+  background-color: white;
+  border-radius: 2px;
+  margin: 6px;
+  padding: 5px 6px 4px;
+  position: absolute;
+  top: 0;
+}
+
+.Card .details .first-line {
+  display: flex;
+  align-items: center;
+}
+
+.Card .details .first-line > * {
+  margin: 1px
+}
+
+.Card .details .first-line .star {
+  height: 14px;
+  width: 14px;
+}
+
+.Card .details .first-line > a {
+  text-decoration: none;
+  color: #918E9B;
+}
+
+.Card .details .third-line > span {
+  font-weight: 700;
+}
+.Card .details .third-line > span::after {
+  content: " / person";
+  font-weight: 300;
+}
+
+
+.separator.circle {
+  width: 2px;
+  height: 2px;
+  background-color: #918E9B;
+  border-radius: 50%;
+}

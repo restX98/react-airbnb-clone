@@ -1,0 +1,26 @@
+.Hero {
+  padding: 36px;
+}
+
+.Hero > img{
+  width: 80%;
+  margin: auto 10%;
+}
+
+.Hero .hero--content > h1 {
+  font-size: 2.25rem;
+  font-weight: 600;
+  line-height: 110%;
+  margin-bottom: 16px;
+}
+
+.Hero .hero--content > p {
+  max-width: 320px;
+  line-height: 110%;
+}
+
+.carousel{
+  margin: 0 30px;
+  display: flex;
+  gap: 18px;
+}
