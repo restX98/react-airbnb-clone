@@ -1,5 +1,7 @@
 # AirBnb Clone
 
+Just a simple page based on AirBnb Style to study ReactJS
+
 ## Available Scripts
 
 In the project directory, you can run:
